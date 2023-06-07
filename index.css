@@ -16,12 +16,25 @@
   height: 750px;
 }
 
-@media(max-width:600px){
+@media(max-width:750px){
   .body-section{
     grid-template-columns: 1fr 1fr;
     display: block;
+
   }
 }
+@media (min-width:751px) and (max-width:999px){
+  .body-section{
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+@media(min-width:1000px){
+  .body-section{
+    grid-template-columns: 1fr 1fr;
+}
+}
+
 .fb-left{
   display: flex;
   flex-direction: column;
